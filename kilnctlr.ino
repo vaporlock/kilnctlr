@@ -14,6 +14,7 @@ Adafruit_MAX31855 tc1(thermoCLK, thermoCS, thermoDO);
 // relay pwm cycle time in millis
 #define winSize  5000
 
+// relay states
 int botOn    = 0;
 int topOn    = 0;
 
